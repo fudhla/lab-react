@@ -1,0 +1,67 @@
+/* Styling untuk keseluruhan halaman */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(45deg, #0f0c29, #302b63, #24243e);
+    background-attachment: fixed;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    /* KUNCI SUPAYA DI TENGAH: */
+    display: flex;
+    justify-content: center; /* Tengah horizontal */
+    align-items: center;     /* Tengah vertikal */
+    min-height: 100vh;       /* Tinggi minimal seukuran layar */
+}
+
+/* Container utama */
+.card {
+    width: 90%;             /* Lebar responsif */
+    max-width: 450px;       /* Batas lebar maksimal kartu */
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    padding: 40px;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+    text-align: center;     /* Pastikan semua teks di dalam kartu rata tengah */
+}
+
+/* Header utama */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    background: linear-gradient(to right, #00f2fe, #4facfe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
+
+/* Paragraf */
+p {
+    font-size: 1.1rem;
+    color: #cbd5e1;
+    margin-bottom: 20px;
+}
+
+/* Garis pemisah neon */
+hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #4facfe, transparent);
+    margin: 20px 0;
+}
+
+/* Greeting / Tombol Binjai */
+small {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    background: linear-gradient(90deg, #ff0080, #7928ca);
+    padding: 12px 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(255, 0, 128, 0.4);
+}
