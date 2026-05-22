@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "title": "Smartphone X10",
+    "code": "PROD-001",
+    "category": "Electronics",
+    "brand": "TechVibe",
+    "price": 5999000,
+    "stock": 45
+  },
+  {
+    "id": 2,
+    "title": "Wireless Headphone Pro",
+    "code": "PROD-002",
+    "category": "Audio",
+    "brand": "SoundWave",
+    "price": 1250000,
+    "stock": 120
+  },
+  {
+    "id": 3,
+    "title": "Mechanical Keyboard K80",
+    "code": "PROD-003",
+    "category": "Accessories",
+    "brand": "KeyClick",
+    "price": 850000,
+    "stock": 75
+  },
+  {
+    "id": 4,
+    "title": "Gaming Mouse RGB",
+    "code": "PROD-004",
+    "category": "Accessories",
+    "brand": "SwiftGlide",
+    "price": 450000,
+    "stock": 200
+  },
+  {
+    "id": 5,
+    "title": "UltraWide Monitor 34\"",
+    "code": "PROD-005",
+    "category": "Electronics",
+    "brand": "VisionMax",
+    "price": 4800000,
+    "stock": 15
+  },
+  {
+    "id": 6,
+    "title": "Running Shoes Air",
+    "code": "PROD-006",
+    "category": "Apparel",
+    "brand": "StrideFit",
+    "price": 950000,
+    "stock": 60
+  },
+  {
+    "id": 7,
+    "title": "Leather Wallet Classic",
+    "code": "PROD-007",
+    "category": "Fashion",
+    "brand": "UrbanCraft",
+    "price": 350000,
+    "stock": 110
+  },
+  {
+    "id": 8,
+    "title": "Ergonomic Office Chair",
+    "code": "PROD-008",
+    "category": "Furniture",
+    "brand": "ComfortSeat",
+    "price": 1750000,
+    "stock": 30
+  },
+  {
+    "id": 9,
+    "title": "Smart Watch Series 5",
+    "code": "PROD-009",
+    "category": "Electronics",
+    "brand": "TechVibe",
+    "price": 2499000,
+    "stock": 85
+  },
+  {
+    "id": 10,
+    "title": "Bluetooth Speaker Mini",
+    "code": "PROD-010",
+    "category": "Audio",
+    "brand": "SoundWave",
+    "price": 399000,
+    "stock": 150
+  },
+  {
+    "id": 11,
+    "title": "Waterproof Backpack 25L",
+    "code": "PROD-011",
+    "category": "Fashion",
+    "brand": "UrbanCraft",
+    "price": 550000,
+    "stock": 90
+  },
+  {
+    "id": 12,
+    "title": "Coffee Maker Espresso",
+    "code": "PROD-012",
+    "category": "Appliances",
+    "brand": "BrewMaster",
+    "price": 1890000,
+    "stock": 25
+  },
+  {
+    "id": 13,
+    "title": "Electric Kettle 1.5L",
+    "code": "PROD-013",
+    "category": "Appliances",
+    "brand": "BrewMaster",
+    "price": 299000,
+    "stock": 140
+  },
+  {
+    "id": 14,
+    "title": "Stainless Steel Tumblr",
+    "code": "PROD-014",
+    "category": "Home & Living",
+    "brand": "HydroPeak",
+    "price": 185000,
+    "stock": 300
+  },
+  {
+    "id": 15,
+    "title": "Dumbbell Set 10kg",
+    "code": "PROD-015",
+    "category": "Sports",
+    "brand": "IronGym",
+    "price": 420000,
+    "stock": 40
+  },
+  {
+    "id": 16,
+    "title": "Yoga Mat Non-Slip",
+    "code": "PROD-016",
+    "category": "Sports",
+    "brand": "FlexiBody",
+    "price": 150000,
+    "stock": 95
+  },
+  {
+    "id": 17,
+    "title": "External SSD 1TB",
+    "code": "PROD-017",
+    "category": "Storage",
+    "brand": "DataShield",
+    "price": 1350000,
+    "stock": 70
+  },
+  {
+    "id": 18,
+    "title": "USB-C Hub 6-in-1",
+    "code": "PROD-018",
+    "category": "Accessories",
+    "brand": "KeyClick",
+    "price": 275000,
+    "stock": 180
+  },
+  {
+    "id": 19,
+    "title": "Casual Denim Jacket",
+    "code": "PROD-019",
+    "category": "Apparel",
+    "brand": "UrbanCraft",
+    "price": 499000,
+    "stock": 50
+  },
+  {
+    "id": 20,
+    "title": "Sunglasses Polarized",
+    "code": "PROD-020",
+    "category": "Fashion",
+    "brand": "RayShade",
+    "price": 220000,
+    "stock": 130
+  },
+  {
+    "id": 21,
+    "title": "LED Desk Lamp",
+    "code": "PROD-021",
+    "category": "Furniture",
+    "brand": "Lumina",
+    "price": 195000,
+    "stock": 88
+  },
+  {
+    "id": 22,
+    "title": "Powerbank 20000mAh",
+    "code": "PROD-022",
+    "category": "Accessories",
+    "brand": "TechVibe",
+    "price": 320000,
+    "stock": 210
+  },
+  {
+    "id": 23,
+    "title": "Air Purifier HEPA",
+    "code": "PROD-023",
+    "category": "Appliances",
+    "brand": "PureAir",
+    "price": 1450000,
+    "stock": 18
+  },
+  {
+    "id": 24,
+    "title": "Blender High Speed",
+    "code": "PROD-024",
+    "category": "Appliances",
+    "brand": "MixMaster",
+    "price": 680000,
+    "stock": 35
+  },
+  {
+    "id": 25,
+    "title": "Graphic Drawing Tablet",
+    "code": "PROD-025",
+    "category": "Electronics",
+    "brand": "VisionMax",
+    "price": 1150000,
+    "stock": 22
+  },
+  {
+    "id": 26,
+    "title": "Wireless Clip-on Mic",
+    "code": "PROD-026",
+    "category": "Audio",
+    "brand": "SoundWave",
+    "price": 550000,
+    "stock": 65
+  },
+  {
+    "id": 27,
+    "title": "Memory Card MicroSD 128GB",
+    "code": "PROD-027",
+    "category": "Storage",
+    "brand": "DataShield",
+    "price": 195000,
+    "stock": 400
+  },
+  {
+    "id": 28,
+    "title": "Standing Desk Motorized",
+    "code": "PROD-028",
+    "category": "Furniture",
+    "brand": "ComfortSeat",
+    "price": 3499000,
+    "stock": 12
+  },
+  {
+    "id": 29,
+    "title": "Hoodie Oversize",
+    "code": "PROD-029",
+    "category": "Apparel",
+    "brand": "StrideFit",
+    "price": 280000,
+    "stock": 145
+  },
+  {
+    "id": 30,
+    "title": "Trimming & Shaving Kit",
+    "code": "PROD-030",
+    "category": "Personal Care",
+    "brand": "GroomPro",
+    "price": 340000,
+    "stock": 80
+  }
+]

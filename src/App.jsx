@@ -18,6 +18,10 @@ const AuthLayout = React.lazy(() => import("./layouts/AuthLayout"))
 const Login = React.lazy(() => import("./pages/auth/Login"))
 const Register = React.lazy(() => import("./pages/auth/Register"))
 const Forgot = React.lazy(() => import("./pages/auth/Forgot"))
+const Product = React.lazy(() => import("./pages/Product"))
+
+// 👍 BARIS YANG DITAMBAHKAN (Menggunakan React.lazy agar seragam dengan yang lain)
+const ProductDetail = React.lazy(() => import("./pages/ProductDetail"))
 
 function Explore() {
   return <h1>Halaman Explore 🔍</h1>;
@@ -42,6 +46,8 @@ function App() {
         <Route path="/explore" element={<Explore />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/orders" element={<Orders />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/products/:id" element={<ProductDetail />} /> 
         <Route path="/customer" element={<Customer />} />
         <Route path="/error400" element={<Error400 />} />
         <Route path="/error401" element={<Error401 />} />
