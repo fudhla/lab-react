@@ -217,7 +217,7 @@ export default function ProductDetail() {
                   onClick={() => alert("Fitur restock otomatis diaktifkan.")}
                   className="py-2.5 px-4 bg-slate-50 hover:bg-slate-100 text-slate-700 font-semibold text-xs rounded-xl border border-slate-200 transition-all"
                 >
-                  ⚡ Restock Cepat
+                  ⚡ Restock Laju
                 </button>
               </div>
 
