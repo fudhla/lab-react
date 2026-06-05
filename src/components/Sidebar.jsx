@@ -2,7 +2,7 @@ import { FiHome, FiList, FiFileText, FiUser } from "react-icons/fi";
 import { MdSpaceDashboard } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 const menuClass = ({ isActive }) =>
-  `flex cursor-pointer items-center rounded-xl p-4  space-x-2
+  `flex cursor-pointer items-center rounded-xl p-4   space-x-2
         ${
           isActive
             ? "text-hijau bg-green-200 font-extrabold"
@@ -63,6 +63,15 @@ export default function Sidebar() {
             Components
           </NavLink>
         </li>
+        
+        {/* HANYA MENAMBAHKAN MENU FITUR XYZ DI SINI */}
+        <li>
+          <NavLink to="/fitur-xyz" className={menuClass}>
+            <FiFileText className="mr-4 text-xl" />
+            Fitur XYZ
+          </NavLink>
+        </li>
+
         <li>
           <NavLink to="/error400" className={menuClass}>
             Error 400
