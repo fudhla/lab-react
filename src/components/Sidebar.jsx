@@ -1,3 +1,4 @@
+import { HiArchive } from "react-icons/hi"; 
 import { FiHome, FiList, FiFileText, FiUser } from "react-icons/fi";
 import { MdSpaceDashboard } from "react-icons/md";
 import { NavLink } from "react-router-dom";
@@ -67,7 +68,7 @@ export default function Sidebar() {
         {/* HANYA MENAMBAHKAN MENU FITUR XYZ DI SINI */}
         <li>
           <NavLink to="/fitur-xyz" className={menuClass}>
-            <FiFileText className="mr-4 text-xl" />
+            <HiArchive className="mr-4 text-xl" />
             Fitur XYZ
           </NavLink>
         </li>
