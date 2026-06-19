@@ -11,7 +11,8 @@ const Customer = React.lazy(() => import("./pages/Customer"));
 const Components = React.lazy(() => import("./pages/Components"));
 const Orders = React.lazy(() => import("./pages/Orders"));
 const ProductDetail = React.lazy(() => import("./pages/ProductDetail"));
-const Products = React.lazy(() => import("./pages/Customer"));
+const Product = React.lazy(() => import("./pages/Product"));
+const Note = React.lazy(() => import("./pages/Note"));
 const Error400 = React.lazy(() => import("./pages/Error400"));
 const Error401 = React.lazy(() => import("./pages/Error401"));
 const Error403 = React.lazy(() => import("./pages/Error403"));
@@ -49,14 +50,14 @@ function App() {
           <Route path="/explore" element={<Explore />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/orders" element={<Orders />} />
-          <Route path="/products" element={<Products />} />
+          <Route path="/products" element={<Product />} />
           <Route path="/products/:id" element={<ProductDetail />} />
           <Route path="/customer" element={<Customer />} />
           <Route path="/components" element={<Components />} />
           
           {/* 2. DAFTARKAN PATH AKSES UNTUK FITUR XYZ */}
           <Route path="/fitur-xyz" element={<FiturXyz />} />
-
+          <Route path="/note" element={<Note />} />
           <Route path="/error400" element={<Error400 />} />
           <Route path="/error401" element={<Error401 />} />
           <Route path="/error403" element={<Error403 />} />

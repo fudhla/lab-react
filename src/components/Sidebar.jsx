@@ -73,6 +73,13 @@ export default function Sidebar() {
           </NavLink>
         </li>
 
+         <li>
+          <NavLink to="/note" className={menuClass}>
+            <HiArchive className="mr-4 text-xl" />
+            Note
+          </NavLink>
+        </li>
+
         <li>
           <NavLink to="/error400" className={menuClass}>
             Error 400
